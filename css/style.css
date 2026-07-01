@@ -62,6 +62,9 @@ ul li {
     font-size: 20px;
     /* padding: 10px; */
 }
+.topRight a{
+    color: black;
+}
 .topRight a:hover{
     color: rgb(255, 0, 0);
 }
@@ -205,7 +208,7 @@ ul li {
 .middle0{
        border: 1px solid #ddd ;  
        height: 60px; 
-       width: 1200px;
+       width: 1275px;
        margin: 0px auto;
 }
 
@@ -240,12 +243,33 @@ ul li {
     transform: translate(-50%,-50%);
 }
 
+.main1{
+    display: flex;
+    justify-content: space-around;
+    gap:2px;
+    margin: 20px;
+
+}
+.main11 .main1 h3{
+    font-size: 15px;
+}
+.main11 .main1 h4{
+    font-size: 10px;
+}
+.main11 .main1 h5{
+    font-size: 10px;
+}
+
+.main11 .main1 img{
+    display: flex;
+    margin: 0 auto;
+
+}
 .offerTime{
     border: 1px solid #ddd;
-    height: 200px;
-    width: 250px;
+    height: 180px;
+    width: 220px;
     padding: 10px;
-    margin: 20px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -255,14 +279,7 @@ ul li {
     gap: 10px;
 }
 
-.offerTime button{
-    padding: 5px;
-    margin-top: 10px;
-    background: rgb(0, 4, 255);
-    color: aliceblue;
-    height: 30px;
-    width: 130px;
-}
+
 
 .time{
     display: flex;
@@ -306,3 +323,64 @@ ul li {
     width: 40px;
     font-weight: 900;
 }
+
+.offerTime button{
+    padding: 5px;    
+    margin-top: 10px;
+    background: rgb(0, 4, 255);
+    color: aliceblue;
+    height: 30px;
+    width: 130px;
+    border-radius: 10px;
+}
+
+.offerTime button:hover{
+    background: rgb(0, 185, 93);
+}
+
+.product1{
+    border: 1px solid #ddd  ;
+    height: 180px;    
+    width: 225px;
+    text-align: left;
+    padding: 10px;
+    line-height: 18px;
+    
+}
+.product2{
+    border: 1px solid #ddd  ;
+    height: 180px;
+    width: 225px;
+    text-align: left;
+    padding: 10px;
+    line-height: 18px;
+}
+.product3{
+    
+    border: 1px solid #ddd  ;
+    height: 180px;
+    width: 225px;
+    text-align: left;
+    padding: 10px;
+    line-height: 18px;
+}
+
+.product4{
+    border: 1px solid #ddd  ;
+    height: 180px;  
+    width: 225px;
+    text-align: left;
+    padding: 10px;
+    line-height: 18px;
+}
+
+.product5{
+    border: 1px solid #ddd  ;
+    height: 180px;
+    width: 225px;
+    text-align: left;
+    padding: 10px;
+    line-height: 18px;  
+    
+}
+
